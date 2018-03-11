@@ -3,23 +3,24 @@
     
 <p>leave this text as defult black</p> 
 
-        <styles>
-        /*  styles paragraph */
-            .important{color:#b336e1}
-            
-        </styles>
 
     <ul>
-       <li class="important">make the text for list items one and two violet using a descendant</li>
-        <li>make the text for list items one and two violet using a descendant</li>
+       <li type="1" style="color:#b336e1">make the text for list items one and two violet using a descendant</li>
+        <li type="1" style="color:#b336e1">make the text for list items one and two violet using a descendant</li>
     </ul>
       
-<p>make this text red using a child selector</p>
+<p p:first-child style="color:red">make this text red using a child selector</p>
 
-<p>make this text blue using an adjacent selector</p>
+    <p style="color:skyblue">make this text blue using an adjacent selector</p>
 
     <ul>
-        <li>make this text orange using a general sibling selector; and this phrase pink by combining 2 types of selectors</li>
+
+    <span1~p style="color:orange">
+        <li><span1>make this text orange using a general sibling selector;</span1>
+            
+    <span2~p style="color:pink; font-style:italic">
+            <span2></style> and this phrase pink by combining 2 types of selectors</span2></li>
+        
     </ul>
 
 </html>
