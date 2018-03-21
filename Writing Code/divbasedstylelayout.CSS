@@ -1,31 +1,25 @@
 div {
-    outline: 1px solid red;
+    outline: 1px solid yellow;
 }
 body{
-    background-color: #5E2C05
+    background-color: #441E13;
+        color:white
 }
 
-.logoarea {
-    width:100%;
-    float:left;
-}
-.menu {
-    width:100%;
-    float:left;
-}
 .logo{
-    width:200px;
-    height:100px;
+    width:205px;
     float:left;
     color:white;
     font-size:2.5rem;
     font-weight:bold;
 }
 .slogan {
-    width:700px;
+    width:380px;
     float:left;
-    height:100px;
-    color:#C9A15F
+    color:#A37B71;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin-top: 18px;
 }
 
 .logocontainer {
@@ -41,6 +35,7 @@ body{
     height: 62px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     margin-top: 20px;
     max-width: 920px
 }
