@@ -1,0 +1,21 @@
+div {
+    outline: 2px solid lime;
+}
+
+.container {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: blue;
+    width: 920px;
+    height: 900;
+}
+
+.yellowbox1
+ background-color: yellow;
+    width: 920px;
+    height: 900;
+
