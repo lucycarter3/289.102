@@ -46,7 +46,7 @@ div {
 .red4boxes {
     width: 920px;
     background-color: red;
-    height: 900px;
+    height: 450px;
     float: left;
 }
 
@@ -59,9 +59,60 @@ div {
     float: left;
 }
 
-.yellowsideredsquare {
-    width: 210;
-    height: 210;
+.yellowinsideredsquare {
+    width: 280px;
+    height: 280px;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.bluebox17 {
+    width: 920px;
+    background-color: #0000FF;
+    height: 800px;
+    float: left;
+    
+}
+
+.yellowinsidebluelong {
+    width: 880px;
+    background-color: yellow;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.yellowinsidebluesquare {
+    width: 205px;
+    height: 205px;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.greenbox4 {
+    width: 920px;
+    height: 590px;
+    background-color: lawngreen;
+    float: left;
+}
+
+.yellowinsidegreenlong {
+    width: 880px;
+    background-color: yellow;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.yellowinsidegreensquare {
+    width: 280px;
+    height: 400px;
     background-color: yellow;
     margin-left: 20px;
     margin-top: 20px;
