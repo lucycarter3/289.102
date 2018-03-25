@@ -118,3 +118,44 @@ div {
     margin-top: 20px;
     float: left;
 }
+
+.redbox3 {
+    width: 920px;
+    height: 620px;
+    background-color: red;
+    float: left;
+}
+
+.yellowinsidered2long {
+    width: 880px;
+    background-color: yellow;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.yellowinsidered2square {
+    width: 550px;
+    height: 480px;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.yellowinsidered2squaresmall {
+    width: 310px;
+    height: 310px;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.finalblue {
+    width: 920px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}
