@@ -36,17 +36,34 @@ div {
     float: left;
 }
 
-
-.submenu {
+.emptygreen {
     width: 920px;
-    background-color: red;
+    background-color: lawngreen;
     height: 500px;
     float: left;
 }
 
-.content {
-    width: 700px;
-    background-color: lawngreen;
-    height: 500px;
+.red4boxes {
+    width: 920px;
+    background-color: red;
+    height: 900px;
+    float: left;
+}
+
+.yellowinsideredlong {
+    width: 880px;
+    background-color: yellow;
+    height: 110px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.yellowsideredsquare {
+    width: 210;
+    height: 210;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-top: 20px;
     float: left;
 }
