@@ -1,5 +1,9 @@
+body {
+    <!-- background-color: red; -->
+}
+
 div {
-    outline: 2px solid lime;
+    outline: 1px solid black;
 }
 
 .container {
@@ -8,14 +12,41 @@ div {
     margin-right: auto;
 }
 
-.header {
-    background-color: blue;
+.bluebox {
     width: 920px;
-    height: 900;
+    background-color: #0000FF;
+    height: 90px;
 }
 
-.yellowbox1
- background-color: yellow;
-    width: 920px;
-    height: 900;
+.yellowinsideblue {
+    width: 300px;
+    background-color: yellow;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
 
+.yellowinsideblue2 {
+    width: 560px;
+    background-color: yellow;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+
+.submenu {
+    width: 920px;
+    background-color: red;
+    height: 500px;
+    float: left;
+}
+
+.content {
+    width: 700px;
+    background-color: lawngreen;
+    height: 500px;
+    float: left;
+}
