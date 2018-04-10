@@ -1,0 +1,58 @@
+div {
+    outline: 1px solid black;
+    text-decoration-color: white;
+}
+
+.container {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    height: 90px;
+}
+
+.whiteboxmain {
+    width: 920px;
+    background-color: white;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+.nav {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    font color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    float: left;
+    margin-top: 35px;
+    font-size: 1.4rem;
+}
+
+.links {
+    float: right;
+    margin-top: 40px;
+    font color: white;
+    font-size: 0.75rem;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
