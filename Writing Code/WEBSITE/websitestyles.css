@@ -1,5 +1,5 @@
 div {
-    outline: 1px solid black;
+    
     text-decoration-color: white;
 }
 
@@ -10,8 +10,8 @@ div {
 }
 
 .header {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #e72989;
     height: 90px;
 }
 
@@ -31,7 +31,7 @@ div {
     max-width: 920px;
     margin-left: auto;
     margin-right: auto;
-    font color: white;
+    font color: #e72989;
     font-family: 'Lato', sans-serif;
 }
 
@@ -44,15 +44,25 @@ div {
 .links {
     float: right;
     margin-top: 40px;
-    font color: white;
+    font color: #e72989;
     font-size: 0.75rem;
 }
 
 .links a {
-    color: white;
+    color: #e72989;
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
 }
 
+.banner {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 920px;
+}
 
+.banner img{
+    max-width: 920px;
+    width: 100%;
+}
