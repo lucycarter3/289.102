@@ -36,78 +36,32 @@
                     </div>
             
             </div>
-        </div>
-            
-        </div>
+            </div>
         
-        <!-- Slide Show Container -->
-        <dv class="slideshow-container">
+        <img class="mySlides" src="images/offlinetypebanner.png" style="width:100%">
         
-        <!-- Full-Width images with number and caption text -->
-        <div class="myslides fade">
-            <div class="numbertext">1 / 2</div>    
-            <img src="images/offlinetypebanner.png" style="width:100%">
-            <div class="text">Caption Text</div>
-        </div>
-            
-        <div class="myslides fade">
-            <div class="numbertext">2 / 2</div>    
-            <img src="images/photographytypebanner.png" style="width:100%">
-            <div class="text">Caption Text</div>
-        </div>
-            
-        <!-- Next and Previous Buttons -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentslide(1)"></span>
-            <span class="dot" onclick="currentslide(2)"></span>
-        </div>
-            
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+        <img class="mySlides" src="images/photographytypebanner.png" style="width:100%">
 </div>
 
 <script>
-var slideindex = 1;
-showSlides(slideIndex);
+var myIndex = 0;
+carousel();
 
-function plusslides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentslide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showslides(n) {
-  var i;
-  var slides = document.getElementsByClassName("myslides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
-                
-        </dv>       
-        </div>
-    
-                
-       
-
+        
+           
+        </div>     
 
     
     </body>
