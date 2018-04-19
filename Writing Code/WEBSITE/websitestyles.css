@@ -84,8 +84,6 @@ div {
     width: 100%;
 }
 
-}
-
 .aboutparagraph {
     width: 910px;
     height: 0px;
@@ -135,16 +133,31 @@ div {
 }
 
 .banner4 {
-    background-color: yellow;
+    background-color: white;
     padding: 0;
     margin-left: 20px;
     margin-top: 25px;
     float: left;
     height: 314.7px;
-    width: 430px;
+    width: 440px;
 }
 
 .banner4 img {
-    max-width: 400px;
+    max-width: 440px;
+    width: 100%; 
+}
+
+.banner5 {
+    background-color: white;
+    padding: 0;
+    margin-right: 20 px;
+    margin-top: 25px;
+    float: left;
+    height: 314.7px;
+    width: 440px;
+}
+
+.banner5 img {
+    max-width: 440px;
     width: 100%; 
 }
